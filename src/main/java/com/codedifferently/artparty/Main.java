@@ -53,7 +53,7 @@ public class Main {
 
         System.out.print("Enter First Name: ");
         String firstName = scanner.nextLine();
-        scanner.nextLine();
+//        scanner.nextLine();
 
         System.out.print("Enter Last Name: ");
         String lastName = scanner.nextLine();
@@ -100,12 +100,6 @@ public class Main {
 
         System.out.print("Enter new Email (leave blank to keep current): ");
         String email = scanner.nextLine();
-
-//        if (id != null) {
-//            // If id is not null, proceed with longValue()
-//            long idValue = id.longValue();
-//            System.out.println("Guest ID: " + idValue);
-//        } else {
 
         // Update fields if provided
         if (!email.isEmpty()) guest.setEmail(email);
